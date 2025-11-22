@@ -1,37 +1,49 @@
-import pytest
+#import pytest
+#from selenium.webdriver.common.by import By
+#import sys
+#import os
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
+#from utils.helpers import login_saucedemo, get_driver
+
+
+
+#@pytest.fixture
+#def driver():
+    # configuracion para consultar a selenium
+    #driver = get_driver()
+    #yield driver
+   #driver.quit()
 
 
 
 
-@pytest.fixture
-def dirver():
-    # configuracion para conultar a selenium
+#def test_login(driver):
+
+    #login_saucedemo(driver)
+    #assert "inventory.html" in driver.current_url
+    #titulo = driver.find_element(By.CSS_SELECTOR, 'div.header_secondary_container .title').text
+    #assert titulo == 'Products'
+
+   
+
+#def test_catalogo( driver ):
+   # login_saucedemo( driver )
+
+    #products = driver.find_elements(By.CLASS_NAME, 'inventory_item')
+    #assert len(products ) > 0
 
 
-def test_login():
-    # logeo de usuario con username y password
-    # click al boton de login
+#def test_carrito( driver ):
+    #login_saucedemo( driver )
 
-    # redirigir a la pagina de inventario
+    #products = driver.find_elements(By.CLASS_NAME, 'inventory_item')
+    #total_products = len(products)
 
-    # verificar el titulp de la pagina(ventanita)
+    #if total_products >= 2:
+      #products[0].find_element(By.TAG_NAME, 'button').click()
+      #products[1].find_element(By.TAG_NAME, 'button').click()
 
-def test_catalogo():
-    # logeo de usuario con username y password
-    # click al boton de login
-
-    
-    #podamos verificar el titulo pero del html
-    
-#comprobar si existen productos en la pagina visibles(len())
-#verificar elementos importantes de la pagina
-
-
-def test_carrito():
-# logeo de usuario con username y password
-# click al boton de login
-#llevarme a la pagina del carrito de compras
-#incremento del carrito al agregar un producto
-
-#comprobar que en el carrito aparezca el producto correctamente
-
+      #badge = driver.find_element(By.CLASS_NAME, 'shopping_cart_badge').text
+      #assert badge == '2'
