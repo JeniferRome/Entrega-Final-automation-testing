@@ -9,11 +9,11 @@ Selenium WebDriver → Para automatizar la interacción con el navegador
 Pytest → Framework para ejecutar los casos de prueba
 GitHub → Control de versiones y repositorio del proyecto
 ⚙️ Instrucciones de Instalación de Dependencias
-Clonar este repositorio:
-git clone https://github.com/wscholtz2508/pre-entrega-automation-testing--Wilmari-Scholtz-.git
+Clonar este repositorio:https://github.com/JeniferRome/Entrega-Final-automation-testing
+git clone 
 Entrar al proyecto:
 
-cd pre-entrega-automation-testing--Wilmari-Scholtz-.git
+cd https://github.com/JeniferRome/Entrega-Final-automation-testing.git
 Instalar las dependencias necesarias:
 
 pip install pytest pytest-html selenium
