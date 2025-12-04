@@ -25,6 +25,3 @@ def test_login( driver, username, password, login_bool):
     else:
         # Espera error
         assert "https://www.saucedemo.com/" in driver.current_url
-
-
-   
